@@ -19,7 +19,7 @@ logging.basicConfig(
 )
 
 # First, we define the transformer model we want to fine-tune
-model_path = "/workspace/models/bge-reranker-large"
+model_path = "/data/workspace/models/bge-reranker-large"
 train_batch_size = 8
 num_epochs = 5
 model_save_path = "ft_" + os.path.basename(model_path)
